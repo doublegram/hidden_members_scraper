@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #cfd3e7;
+    padding: 30px;
+}
+
+.instructions-box {
+    background: #fff;
+    padding: 30px 50px;
+    border-radius: 10px;
+    max-width: 70%;
+}
+
+.badge-version {
+    background: blue;
+    color: #fff;
+    padding: 5px 9px;
+    border-radius: 10px;
+    font-family: Arial;
+    border: none;
+    font-size: 13px;
+}
+
+.head-doc {
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.head-doc>img {
+    height: 250px;
+    border-radius: 10px;
+}
+
+.info-section {
+    margin-left: 30px;
+}
+
+.instructions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.instructions>div:first-of-type {
+    width: 30%;
+    border-right: 1px solid #bebebe;
+    margin-right: 30px;
+    padding-right: 20px;
+}
